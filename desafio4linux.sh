@@ -17,9 +17,9 @@ sudo docker run -dit --name app1 -p 8080:80 httpd:2.4
 sudo docker run -dit --name app2 -p 8081:80 httpd:2.4
 sudo docker run -dit --name app3 -p 8082:80 httpd:2.4
 #Adicionando pagina inicial nos 3 containers
-docker cp ./index1.html app1:/usr/local/apache2/htdocs/index.html
-docker cp ./index2.html app2:/usr/local/apache2/htdocs/index.html
-docker cp ./index3.html app3:/usr/local/apache2/htdocs/index.html
+sudo docker cp ./index1.html app1:/usr/local/apache2/htdocs/index.html
+sudo docker cp ./index2.html app2:/usr/local/apache2/htdocs/index.html
+sudo docker cp ./index3.html app3:/usr/local/apache2/htdocs/index.html
 #Adicionando arquivos no diretório sites-available no nginx
 sudo cp ./app1.4linux.local.com.br /etc/nginx/sites-available
 sudo cp ./app2.4linux.local.com.br /etc/nginx/sites-available
