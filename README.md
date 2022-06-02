@@ -1,5 +1,5 @@
-Script Name: challenge4linux.sh
-Description: Create 3 docker containers and do a reverse proxy with nginx.
+Script Name: challenge4linux.sh/n
+Description: Create 3 docker containers and do a reverse proxy with nginx./n
 Linkedin: www.linkedin.com/in/jonathan-abrantes-07614a48
 Written by: Jonathan Abrantes
 Maintenance: Jonathan Abrantes
