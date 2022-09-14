@@ -31,5 +31,6 @@ sudo ln -s /etc/nginx/sites-available/app3.4linux.local.com.br /etc/nginx/sites-
 #Fazendo check do nginx e restartando o serviço do nginx
 sudo nginx -t
 sudo systemctl restart nginx
-#Adicionando linhas no arquivo hosts
+#Adicionando linhas no arquivo hosts e fazendo backup do arquivo hosts anterior
+sudo mv /etc/hosts /etc/hosts_old
 sudo cp ./hosts /etc/hosts
